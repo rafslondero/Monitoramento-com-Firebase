@@ -1,0 +1,79 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background: black;
+}
+
+#container {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+#titulo {
+    color: #e7eaeb;
+    text-align: center;
+    margin-top: 70px;
+}
+
+#grid {
+    margin-top: 20px;
+    margin-left: 3%;
+}
+
+#imgLight {
+    margin: 15px 0 0 250px;
+    padding: 25px;
+    width: 100px;  
+    height: 100px;
+    background-color: #17729c;
+    color: white;
+    border-radius: 50%;
+}
+
+table {
+    margin-top: 25px;
+}
+
+td {
+    text-align: center;
+    background-color: #a8bac2;
+    color: black;
+    padding: 10px;
+    width: 280px;
+    height: 35px;
+    font-size: 20px;
+    border-radius: 3px;
+}
+
+#btnConsultar {
+    width: 600px;
+    height: 40px;
+    margin-top: 20px;
+    font-size: 15px;
+    background-color: #17729c;
+    color: white;
+    margin-left: 3%;
+    border: none;
+    border-radius: 6px;
+    
+}
+
+#btnConsultar:hover {
+    cursor: pointer;
+    background-color: #0081bd;
+}
+
+#id {
+    width: 595px;
+    height: 40px;
+    border: none;
+    border-radius: 6px;
+    margin-top: 10px;
+    margin-left: 3%;
+}
+
+.infos {
+    padding: 10px;
+    justify-content: center;
+}

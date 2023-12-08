@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monitoramento de Luminosidade e Movimento</title>
+    <link rel="icon" href="lightbulb-fill.svg" type="image/png">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div id="container">
+      <div class="infos">
+        <div>
+          <h1 id="titulo">Monitoramento de Luminosidade e Movimento</h1>
+        </div>
+        <div>
+          <button class="botoes" id="btnConsultar" onclick="get()">Consultar</button>
+        </div>
+        
+        <div id="grid"></div>
+        <div id="img"></div>
+
+      </div>
+    </div>
+  </body>
+
+  <script src="https://www.gstatic.com/firebasejs/10.4.0/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.4.0/firebase-database-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.0.2/firebase-auth-compat.js"></script>
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  <script src="source.js"></script>
+
+</html>
